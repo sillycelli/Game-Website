@@ -17,7 +17,6 @@ function App() {
         >
           Learn React
         </a>
-        <button onClick="onClick">Click me!</button>
       </header>
     </div>
   );
