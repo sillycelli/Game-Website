@@ -2,6 +2,34 @@
   text-align: center;
 }
 
+a{
+  padding-left: 150px;
+  padding-right: 150px;
+}
+
+.nav {
+  left: 100px;
+}
+
+h1 {
+  background-color:rgb(29, 65, 175);
+  font-size: x-large;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+a:link, a:visited{
+  color: rgb(229, 212, 250);
+}
+
+p{
+  color:  rgb(229, 212, 250);
+}
+
+a:hover{
+  color: rgb(29, 65, 175);
+  background-color:rgb(229, 212, 250);
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
