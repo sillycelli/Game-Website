@@ -1,5 +1,15 @@
 .App {
   text-align: center;
+  font-family: "Comic Sans MS";
+  font-style: italic;
+}
+
+Link {
+  border-radius: 50px;
+}
+
+h1 {
+  color: purple;
 }
 
 .App-logo {
