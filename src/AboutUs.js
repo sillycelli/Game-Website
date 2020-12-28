@@ -1,4 +1,5 @@
 import React from "react";
+import Nav from 'react-bootstrap/Nav';
 
 export class AboutUs extends React.Component {
     render() {
