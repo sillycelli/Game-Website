@@ -3,27 +3,27 @@
 }
 
 a{
-  padding-left: 150px;
-  padding-right: 150px;
+  /* text-decoration: none; */
 }
 
 h1 {
+  /* text-decoration: none;
   background-color:rgb(29, 65, 175);
   font-size: x-large;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
 }
 
 a:link, a:visited{
-  color: rgb(229, 212, 250);
+  /* color: rgb(229, 212, 250); */
 }
 
 p{
-  color:  rgb(229, 212, 250);
+  /* color:  rgb(229, 212, 250); */
 }
 
 a:hover{
-  color: rgb(29, 65, 175);
-  background-color:rgb(229, 212, 250);
+  /* color: rgb(29, 65, 175);
+  background-color:rgb(229, 212, 250); */
 }
 
 .App-logo {
