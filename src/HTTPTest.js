@@ -1,11 +1,14 @@
+/*
 const express = require('express')
 const app = express()
 const port = 3001
-
+*/
+/*
 app.get('/', (req, res) => {
   res.status(200).send('Goodbye World!');
 })
-
+*/
+/*
 app.listen(port, () => {
   console.log(`App running on port ${port}.`)
 })
@@ -26,6 +29,7 @@ app.get('/', (req, res) => {
     res.status(200).send(response);
   })
   .catch(error => {
-    res.status(500).send(error);
+    res.status(502).send(error);
   })
 })
+*/
