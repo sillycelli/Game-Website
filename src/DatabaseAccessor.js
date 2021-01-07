@@ -8,18 +8,20 @@ const pool = new Pool({
   port: 5432,
 });
 */
+
+
 const { Pool, Client } = require('pg')
-const pool = new Pool({
-  user: 'postgres',
-  host: 'localhost',
-  database: 'paishoserver',
-  password: 'PaiShoWebsite!',
-  port: 5432,
-})
-pool.query('SELECT NOW()', (err, res) => {
-  console.log(err, res)
-  pool.end()
-})
+// const pool = new Pool({
+//   user: 'postgres',
+//   host: 'localhost',
+//   database: 'paishoserver',
+//   password: 'PaiShoWebsite!',
+//   port: 5432,
+// })
+// pool.query('SELECT NOW()', (err, res) => {
+//   console.log(err, res)
+//   pool.end()
+// })
 const client = new Client({
   user: 'postgres',
   host: 'localhost',
@@ -28,10 +30,13 @@ const client = new Client({
   port: 5432,
 })
 client.connect()
-client.query('SELECT NOW()', (err, res) => {
-  console.log(err, res)
-  client.end()
-})
+.then(()=> console.log("Yay"))
+.then(() => client.query('SELECT NOW()')
+.then(results => console.log(results.rows))
+)
+.catch(e => console.log(e))
+.finally(()=>client.end())
+
 
 /*
  const getAccounts = () => {
